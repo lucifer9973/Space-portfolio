@@ -60,7 +60,7 @@ export const Introduction = () => {
         whileInView="visible"
         viewport={{ once: true }}
       >
-        I'm a passionate and detail-oriented software developer with hands-on experience in building scalable web and mobile applications using modern technologies like Python, JavaScript (React.js, Node.js), MongoDB, and Firebase.
+        I&apos;m a passionate and detail-oriented software developer with hands-on experience in building scalable web and mobile applications using modern technologies like Python, JavaScript (React.js, Node.js), MongoDB, and Firebase.
       </motion.p>
     </motion.section>
   );
