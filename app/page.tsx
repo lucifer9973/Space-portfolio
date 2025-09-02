@@ -55,7 +55,7 @@ export default function Home() {
           <Introduction />
         </motion.div>
         <motion.div variants={sectionVariants}>
-          <div className="flex flex-row justify-center gap-10">
+          <div className="flex flex-col md:flex-row justify-center gap-10 md:gap-10 px-4 md:px-0">
             <Achievements />
             <Internships />
             <Certifications />

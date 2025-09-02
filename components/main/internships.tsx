@@ -32,7 +32,7 @@ export const Internships = () => {
       </h1>
       <button
         onClick={toggleExpanded}
-        className="group relative bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-8 w-72 cursor-pointer hover:from-blue-500 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
+        className="group relative bg-gradient-to-r from-blue-600 to-blue-800 rounded-xl p-6 sm:p-8 w-64 sm:w-72 cursor-pointer hover:from-blue-500 hover:to-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-blue-500/25"
         aria-expanded={isExpanded}
         aria-controls="internships-content"
       >

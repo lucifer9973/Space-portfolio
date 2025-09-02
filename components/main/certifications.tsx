@@ -32,7 +32,7 @@ export const Certifications = () => {
       </h1>
       <button
         onClick={toggleExpanded}
-        className="group relative bg-gradient-to-r from-green-600 to-green-800 rounded-xl p-8 w-72 cursor-pointer hover:from-green-500 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-500/25"
+        className="group relative bg-gradient-to-r from-green-600 to-green-800 rounded-xl p-6 sm:p-8 w-64 sm:w-72 cursor-pointer hover:from-green-500 hover:to-green-700 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-500/25"
       >
         <div className="flex flex-col items-center">
           <span className="text-5xl mb-3 group-hover:animate-bounce">📜</span>

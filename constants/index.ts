@@ -46,7 +46,7 @@ export const SKILL_DATA = [
   },
   {
     skill_name: "AWS",
-    image: "aws.png",
+    image: "AWS.png",
     width: 80,
     height: 80,
   },
