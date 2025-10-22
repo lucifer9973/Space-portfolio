@@ -1,4 +1,4 @@
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { FaYoutube, FaFacebook, FaInstagram } from "react-icons/fa";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -88,6 +88,11 @@ export const SOCIALS = [
     name: "Linkedin",
     icon: RxLinkedinLogo,
     link: "https://www.linkedin.com/in/shobhit-raj9973",
+  },
+  {
+    name: "Instagram",
+    icon: FaInstagram,
+    link: "https://www.instagram.com/shobhitraj729/",
   },
   {
     name: "GitHub",

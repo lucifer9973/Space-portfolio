@@ -60,7 +60,7 @@ export const Introduction = () => {
       viewport={{ once: true }}
     >
       <motion.div
-        className="flex-shrink-0 mx-auto lg:mx-0 mb-4 lg:mb-0"
+        className="flex-shrink-0 mx-auto lg:mx-0 px-4 mb-6 lg:mb-0"
         variants={imageVariants}
         initial="hidden"
         whileInView="visible"
@@ -69,7 +69,7 @@ export const Introduction = () => {
         <motion.img
           src={images[currentImageIndex]}
           alt="Profile"
-          className="w-48 h-48 rounded-full object-cover shadow-lg"
+          className="w-56 h-56 rounded-full object-cover shadow-lg"
           key={currentImageIndex}
           initial="hidden"
           animate="visible"
@@ -94,6 +94,17 @@ export const Introduction = () => {
         >
           I&apos;m a passionate and detail-oriented software developer with hands-on experience in building scalable web and mobile applications using modern technologies like Python, JavaScript (React.js, Node.js), MongoDB, and Firebase.
         </motion.p>
+        <motion.a
+          href="/ShobhitRaj_CV.pdf"
+          download
+          className="inline-block bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-500 hover:to-blue-700 text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-blue-500/25 transform hover:scale-105"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          whileHover={{ scale: 1.05 }}
+          viewport={{ once: true }}
+        >
+          Download Resume 📄
+        </motion.a>
       </div>
     </motion.section>
   );
