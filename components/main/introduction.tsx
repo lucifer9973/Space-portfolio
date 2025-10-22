@@ -10,7 +10,7 @@ export const Introduction = () => {
     setActiveSection(activeSection === section ? null : section);
   };
 
-  const images = ['/1.jpg', '/2.jpg', '/3.jpg'];
+  const images = ['/1.png', '/2.png', '/3.jpg'];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -60,7 +60,7 @@ export const Introduction = () => {
       viewport={{ once: true }}
     >
       <motion.div
-        className="flex-shrink-0"
+        className="flex-shrink-0 mx-auto lg:mx-0 mb-4 lg:mb-0"
         variants={imageVariants}
         initial="hidden"
         whileInView="visible"
@@ -69,7 +69,7 @@ export const Introduction = () => {
         <motion.img
           src={images[currentImageIndex]}
           alt="Profile"
-          className="w-32 h-32 rounded-full object-cover shadow-lg"
+          className="w-48 h-48 rounded-full object-cover shadow-lg"
           key={currentImageIndex}
           initial="hidden"
           animate="visible"
