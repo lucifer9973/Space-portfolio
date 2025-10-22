@@ -250,31 +250,9 @@ export const ACHIEVEMENTS = [
     description: "Selected for Amazon ML Summer School (less than 2% acceptance rate).",
     date: "2023",
   },
-  {
-    title: "Hackathon Winner",
-    description: "Won first place in XYZ Hackathon for innovative app development.",
-    date: "2023",
-  },
-  {
-    title: "Scholarship Recipient",
-    description: "Received full scholarship for academic excellence.",
-    date: "2022",
-  },
 ] as const;
 
 export const INTERNSHIPS = [
-  {
-    title: "AI/ML Intern",
-    company: "Google",
-    description: "Leveraged Google Firebase and cloud computing to enable dynamic AI updates within Android applications.",
-    duration: "Jan 2025 - Mar 2025",
-  },
-  {
-    title: "Android Developer Intern",
-    company: "Google",
-    description: "Designed and implemented intuitive UI/UX following Material Design guidelines, improving usability by 30%.",
-    duration: "Oct 2024 - Dec 2024",
-  },
   {
     title: "Keploy API Fellow",
     company: "Keploy",
