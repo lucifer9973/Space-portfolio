@@ -354,7 +354,7 @@ export const TIMELINE = [
   {
     year: "2020-2022",
     events: [
-      "12th Central Board of Secondary Education, Sri Chaitanya Vidyaniketan (Score: 81%)",
+      "12th Central Board of Secondary Education, Sri Chaitanya Vidyaniketan (Score: 73%)",
     ],
   },
 ] as const;

@@ -52,7 +52,7 @@ export const Introduction = () => {
 
   return (
     <motion.section
-      id="introduction"
+      id="about-me"
       className="flex flex-col lg:flex-row items-center justify-center gap-8 py-20 text-white max-w-5xl mx-auto"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
