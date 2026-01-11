@@ -49,7 +49,7 @@ export const Skills = () => {
       <SkillText />
 
       <motion.div
-        className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mt-4"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -74,7 +74,7 @@ export const Skills = () => {
       </motion.div>
 
       <motion.div
-        className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mt-4"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -98,7 +98,7 @@ export const Skills = () => {
         ))}
       </motion.div>
       <motion.div
-        className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mt-4"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -122,7 +122,7 @@ export const Skills = () => {
         ))}
       </motion.div>
       <motion.div
-        className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mt-4"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"
@@ -146,7 +146,7 @@ export const Skills = () => {
         ))}
       </motion.div>
       <motion.div
-        className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center"
+        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6 mt-4"
         variants={containerVariants}
         initial="hidden"
         whileInView="visible"

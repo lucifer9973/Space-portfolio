@@ -41,7 +41,7 @@ export default function Home() {
   return (
     <main className="h-full w-full">
       <motion.div
-        className="flex flex-col gap-20"
+        className="flex flex-col gap-8 sm:gap-12 md:gap-20"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -59,7 +59,7 @@ export default function Home() {
           <AIChat />
         </motion.div>
         <motion.div variants={sectionVariants}>
-          <div className="flex flex-col md:flex-row justify-center gap-10 md:gap-10 px-4 md:px-0">
+          <div className="flex flex-col md:flex-row justify-center gap-4 sm:gap-6 md:gap-10 px-2 sm:px-4 md:px-0">
             <Achievements />
             <Internships />
             <Certifications />

@@ -66,3 +66,73 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Mobile-First Responsive Design */
+
+/* Small screens (320px - 480px) */
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Reduce padding on all sides */
+  main {
+    padding: 0 12px;
+  }
+
+  /* Reduce gap between sections */
+  .flex.flex-col {
+    gap: 12px !important;
+  }
+
+  /* Adjust heading sizes */
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  /* Text adjustments */
+  p {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+}
+
+/* Medium screens (481px - 768px) */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  main {
+    padding: 0 16px;
+  }
+
+  /* Adjust spacing */
+  .flex.flex-col {
+    gap: 16px !important;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Large screens (769px and up) */
+@media (min-width: 769px) {
+  main {
+    padding: 0 20px;
+  }
+}
