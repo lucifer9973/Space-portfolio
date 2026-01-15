@@ -150,7 +150,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 
 ## :rocket: Follow Me
 
-[![GitHub followers](https://img.shields.io/github/followers/lucifer9973?style=social&label=Follow&maxAge=2592000)](https://github.com/lucifer9973 "Follow Me")<br>(https://github.com/sanidhyy "Follow Me")
+[![GitHub followers](https://img.shields.io/github/followers/lucifer9973?style=social&label=Follow&maxAge=2592000)](https://github.com/lucifer9973 "Follow Me")<br>
 
 ## :books: Learn More
 
@@ -183,4 +183,5 @@ You can also give this repository a star to show more people and they can use th
 
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
