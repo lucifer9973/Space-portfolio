@@ -32,9 +32,6 @@
 - [Follow Me](#rocket-follow-me)
 - [Learn More](#books-learn-more)
 - [Deploy on Vercel](#page_with_curl-deploy-on-vercel)
-- [Give A Star](#star-give-a-star)
-- [Star History](#star2-star-history)
-- [Give A Star](#star-give-a-star)
 
 </details>
 
@@ -167,21 +164,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## :star: Give A Star
-
-You can also give this repository a star to show more people and they can use this repository.
-
-## :star2: Star History
-
-<a href="https://star-history.com/#sanidhyy/space-portfolio&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=sanidhyy/space-portfolio&type=Timeline" />
-</picture>
-</a>
-
-<br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
